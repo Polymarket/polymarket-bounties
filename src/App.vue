@@ -2,11 +2,11 @@
   <div id="app">
     <div class="text-center pt-5 mb-3">
       <img src="@/assets/logo.svg" height="42" />
-      <h1 class="text-normal text-center"><b>Balancer</b> | Bounties</h1>
+      <h1 class="text-normal text-center"><b>Polymarket</b> | Bounties</h1>
     </div>
     <div class="container-lg px-4 mb-6">
       <p style="max-width: 520px;" class="mx-auto text-center mb-6">
-        Help grow the Balancer ecosystem by building essential projects
+        Help grow the Polymarket ecosystem by building essential projects
         requested by the community. Earn grant funding for your contribution.
       </p>
       <div class="mb-5 d-flex flex-items-center rounded-3 px-4 bg-gray">
@@ -71,7 +71,7 @@
 </template>
 
 <script>
-const id = '1VZpcv11xIxm_H9uVNG1oEpYbroR-5SBkvXXMvJCUedA';
+const id = '15Cp1JbQAj9DjlzRc3lDcjobPTlJ4TLku19sbNp0KMPM';
 const url = `https://spreadsheets.google.com/feeds/cells/${id}/1/public/full?alt=json`;
 
 const getSpreadsheet = async url => {
